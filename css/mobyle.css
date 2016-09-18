@@ -4,7 +4,7 @@ header {
 	}
 
 header {
-    height: 30vw;
+    height: 161vw;
 	background-image: url(../img/header-bg.png);
     background-position: center;
     -webkit-background-size: cover;
@@ -14,6 +14,7 @@ header {
 
 a {
     text-decoration: none;
+    color: #fff;
 }
 
 .logo {
@@ -48,7 +49,6 @@ a {
 }
 
 .header-menu a {
-    color: #fff;
     vertical-align: middle;
     font-size: 2vw;
 }
@@ -101,7 +101,7 @@ a {
 }
 
 .slider {
-    width: 25vw;
+    width: 27vw;
     margin: 0 auto;
     text-align: left;
     padding: 5vw 0 2vw 2vw;
@@ -121,7 +121,7 @@ a {
     text-transform: uppercase;
     color: #edbfff;
     font-size: 1.5vw;
-    letter-spacing: -.5px;
+    letter-spacing: -.9px;
 }
 
 .circles {
@@ -155,4 +155,58 @@ a {
     background: url(../img/white-circle.png) no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    padding: 19vw 0 0 0;
+    /*justify-content: space-around;*/
+    background-image: -webkit-linear-gradient(bottom, #322539, #745083);
+    background-image: -moz-linear-gradient(bottom, #322539, #745083);
+    background-image: -o-linear-gradient(bottom, #322539, #745083);
+    background-image: -ms-linear-gradient(bottom, #322539, #745083);
+    background-image: linear-gradient(to top, #322539, #745083);
+    width: 100vw;
+    height: 200vw;
+}
+
+.info__about-company {
+    position: relative;
+    width: 60vw;
+    margin: 16vw 0 0 25vw;
+    color: #fff;
+}
+
+.info__about-company:before {
+    content: '';
+    display: block;
+    width: 9vw;
+    height: 9vw;
+    position: absolute;
+    left: -15vw;
+    top: 0vw;
+    background: url('../img/wrench.png');
+}
+
+.info__about-company a {
+    display: block;
+    width: 30vw;
+    position: absolute;
+    right: -5vw;
+    bottom: -5vw;
+    text-transform: uppercase;
+    text-shadow: 1px 1px #0f1518;
+}
+
+.info__about-company a:hover {
+    text-shadow: 0 0 8px rgba(255,255,255,.8);
+}
+
+.info__about-company h3 {
+    text-transform: uppercase;
+}
+
+.info__about-company p {
+    line-height: 7vw;
 }
