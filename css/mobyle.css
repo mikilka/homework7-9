@@ -4,7 +4,7 @@ header {
 	}
 
 header {
-    height: 20vh;
+    height: 30vw;
 	background-image: url(../img/header-bg.png);
     background-position: center;
     -webkit-background-size: cover;
@@ -74,6 +74,7 @@ a {
     border-collapse: collapse;
 }
 
+.header-menu:focus,
 .header-menu:hover {
     background-color: rgba(61, 49, 70, .5);
     -webkit-box-shadow: 0 3px 5px rgba(0,0,0,.2);
@@ -83,18 +84,75 @@ a {
     border-radius: 4px;
 }
 
-/*.header-menu li:hover,*/
 .header-menu__dropdown li {
     display: block;
     border: 1px solid rgba(105,82,114,.59);
 }
 
+.header-menu__dropdown li:focus,
 .header-menu__dropdown li:hover {
     background-color: rgba(43, 34, 49, .5);
     border: 1px solid rgba(237, 191, 255, .5);
 }
 
+.header-menu:focus .header-menu__dropdown,
 .header-menu:hover .header-menu__dropdown {
     display: block;
 }
 
+.slider {
+    width: 25vw;
+    margin: 0 auto;
+    text-align: left;
+    padding: 5vw 0 2vw 2vw;
+    font-family: LeagueGothic;
+    /*!!!!!!!!!!! ПІДКЛЮЧИТИ ШРИФТ !!!!!!!!!!!!!!!!*/
+    text-shadow: 0 2px 2px rgba(0,0,0,.3);
+}
+
+.slider__first-paragraph {
+    text-transform: capitalize;
+    color: #fefefe;
+    font-size: 2.5vw;
+    padding-bottom: .5vw;
+}
+
+.slider__second-paragraph {
+    text-transform: uppercase;
+    color: #edbfff;
+    font-size: 1.5vw;
+    letter-spacing: -.5px;
+}
+
+.circles {
+    width: 20vw;
+    display: block;
+    margin: 0 auto;
+}
+
+.circles li {
+    display: inline-block;
+    position: relative;
+    content: '';
+    width: 3vw;
+    height: 3vw;
+    margin-left: 1vw;
+    background: url(../img/circles.png);
+    -webkit-background-size: cover;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+.circles--white {
+    display: none;
+}
+
+.circles li:hover .circles--white {
+    display: block;
+    margin: 15% 15% 15% 15%;
+    width: 70%;
+    height: 70%;
+    background: url(../img/white-circle.png) no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
