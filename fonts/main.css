@@ -1,0 +1,15 @@
+@font-face {
+		font-family: 'League Gothic';
+		font-style: normal;
+		src: local('League Gothic'), local('LeagueGothic-Regular'),
+		url(LeagueGothic.woff2) format('woff2'),
+		url(LeagueGothic.woff) format('woff');
+}
+
+@font-face {
+		font-family: 'Open Sans';
+		font-style: normal;
+		src: local('Open Sans'), local('OpenSans-Regular'),
+		url('Open Sans.woff2') format('woff2'),
+		url('Open Sans.woff') format('woff');
+}
