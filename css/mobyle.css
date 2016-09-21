@@ -28,7 +28,7 @@ a {
 }
 
 .logo {
-    padding: 20vw 0 10vw 0;
+    padding: 20vw 0 6vw 0;
     text-align: center;
     color: #fff;
     font-family: 'League Gothic', Sans, Arial, sans-serif;
@@ -61,7 +61,7 @@ a {
 .header-menu a {
     vertical-align: middle;
     font-family: 'League Gothic', Sans, Arial, sans-serif;
-    font-size: 8vw;
+    font-size: 7.5vw;
 }
 .header-menu--underline {
     position: relative;
@@ -129,7 +129,7 @@ a {
     width: 70vw;
     margin: 0 auto;
     text-align: left;
-    padding: 41.5vw 0 2vw 0;
+    padding: 37.5vw 0 2vw 0;
     font-family: 'League Gothic', Sans, Arial, sans-serif;
     text-shadow: 0 2px 2px rgba(0,0,0,.3);
 }
@@ -185,31 +185,31 @@ a {
 .info {
     display: flex;
     flex-direction: column;
-    padding: 19vw 0 0 0;
-    /*justify-content: space-around;*/
+    padding: 12vw 0 0 0;
     background-image: -webkit-linear-gradient(bottom, #322539, #745083);
     background-image: -moz-linear-gradient(bottom, #322539, #745083);
     background-image: -o-linear-gradient(bottom, #322539, #745083);
     background-image: -ms-linear-gradient(bottom, #322539, #745083);
     background-image: linear-gradient(to top, #322539, #745083);
     width: 100vw;
-    height: 200vw;
+    height: 175vw;
+    border-bottom: 1px solid #21333b;
 }
 
 .info__about-company {
     position: relative;
-    width: 60vw;
-    margin: 16vw 0 0 25vw;
+    width: 61vw;
+    margin: 10vw 0 9.5vw 25.5vw;
     color: #fff;
 }
 
 .info__about-company:before {
     content: '';
     display: block;
-    width: 9vw;
-    height: 9vw;
+    width: 9.5vw;
+    height: 9.5vw;
     position: absolute;
-    left: -15vw;
+    left: -16vw;
     top: 0vw;
     background: url('../img/wrench.png') no-repeat;
     -webkit-background-size: cover;
@@ -220,11 +220,12 @@ a {
     display: block;
     width: 32vw;
     position: absolute;
-    right: -5vw;
-    bottom: -5vw;
+    right: -20vw;
+    bottom: -10vw;
     text-transform: uppercase;
     text-shadow: 1px 1px #0f1518;
-    font-size: 5vw;
+    font-size: 5.5vw;
+    font-family: 'League Gothic', Sans, Arial, sans-serif;
 }
 
 .info__about-company a:focus,
@@ -234,8 +235,58 @@ a {
 
 .info__about-company h3 {
     text-transform: uppercase;
+    font-family: 'League Gothic', Sans, Arial, sans-serif;
+    font-size: 7.5vw;
+    padding-bottom: 1vw;
+    text-shadow: 1px 1px #0f1518;
 }
 
 .info__about-company p {
-    line-height: 7vw;
+    line-height: 8vw;
+    font-family: 'Open Sans', Sans, Arial, sans-serif;
+    font-weight: 400;
+    text-shadow: 1px 1px #0f1518;
+    letter-spacing: -.1vw;
+}
+
+.blogs {
+    background-color: #f9f9f9;
+    padding: 22vw 0 0 0;
+}
+
+.feedback {
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+    box-shadow: 0 1px 2px rgba(0,0,0,.05);
+    width: 80vw;
+    height: 85vw;
+    margin: 0 0 0 14vw;
+    padding: 8vw 8vw 0 11vw;
+    background-color: #fff;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.feedback h3 {
+    display: block;
+    width: 27vw;
+    text-transform: uppercase;
+    font-family: 'League Gothic', Sans, Arial, sans-serif;
+    text-shadow: 1px 1px #fff;
+    font-size: 7.5vw;
+    color: #454545;
+}
+
+.feedback h3 span {
+    color: #edbfff;
+}
+
+.feedback p {
+    display: block;
+    height: 55vw;
+    line-height: 8vw;
+    overflow: hidden;
+    font-family: 'Open Sans', Sans, Arial, sans-serif;
+    color: #454545;
+    text-shadow: 1px 1px #fff;
 }
